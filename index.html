@@ -51,8 +51,8 @@
 				<li class="current"><a class="smoothscroll"  href="#home" title="home">Inicio</a></li>
                 <li><a class="smoothscroll" id="loadFile" href="#about" title="loadFile">Cargar archivo</a></li>
 				<li><a class="smoothscroll" id="find" href="#pricing" title="find">Consultar informe</a></li>
-				<li><a class="smoothscroll" id="registerCompany"  href="#testimonials" title="registerCompany">Registrar empresa</a></li>
-				<li><a class="smoothscroll"  href="#download"  id="registerArtist" title="registerArtist">Registrar artista</a></li>	
+				<li><a class="smoothscroll" id="registerCompany"  href="#Company" title="registerCompany">Registrar empresa</a></li>
+				<li><a class="smoothscroll"  href="#Artistas"  id="registerArtist" title="registerArtist">Registrar artista</a></li>	
 			</ul>
 
             <a href="#" id="signUp" title="sign-up" class="button button-primary cta">Iniciar sesión</a>
@@ -219,76 +219,40 @@
 
     <!-- Testimonials Section
     ================================================== -->
-    <section id="testimonials">
-
-        <div class="row">
-            <div class="col-twelve">
-                <h1 class="intro-header" data-aos="fade-up">Holaaa! Esta sección también está en construcción</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. 
-                    </p>
-            </div>   		
-        </div>   	
-
-    <!-- <div class="row owl-wrap">
-
-            <div id="testimonial-slider"  data-aos="fade-up">
-
-                <div class="slides owl-carousel">
-
-                    <div>
-                        <p>
-                        Your work is going to fill a large part of your life, and the only way to be truly satisfied is
-                        to do what you believe is great work. And the only way to do great work is to love what you do.
-                        If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-                        </p> 
-
-                        <div class="testimonial-author">
-                                <img src="images/avatars/user-02.jpg" alt="Author image">
-                                <div class="author-info">
-                                    Steve Jobs
-                                    <span class="position">CEO, Apple.</span>
-                                </div>
-                        </div>                 
-                    </div> 
-
-                    <div>
-                        <p>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                        nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.    
-                        </p>
-
-                        <div class="testimonial-author">
-                                <img src="images/avatars/user-03.jpg" alt="Author image">
-                                <div class="author-info">
-                                    John Doe
-                                    <span>CEO, ABC Corp.</span>
-                                </div>
-                        </div>                                         
-                    </div> 
-
-                </div> --> <!-- end slides -->
-
-            </div> <!-- end testimonial-slider -->         
-            
-        </div>  <!-- end flex-container -->
-
-    </section> <!-- end testimonials -->
-    
-
-    <!-- download
-    ================================================== -->
-    <section id="download">
-
+    <section id="Company">
         <div class="row">
             <div class="col-full">
-                <h1 class="intro-header"  data-aos="fade-up">Sí, aunque no lo creas ésta también está en proceso de construcción!</h1>
+                <h4  class="intro-header"  data-aos="fade-up">Registrar Artistas</h4>
+               <a label>Tipo documento *</label>   
+               <select name="cboTipoDocumento" id="TipoDocumento"></select>
+               <a label>Nro. Documento</label>
+              <input type="text" name="nroDocument" id="nroDocument"/> 
+              <label>Primer Nombre</label>
+              <input type="text" name="firstName" id="firstName"/> 
 
-                <p class="lead" data-aos="fade-up">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                </p>
+              <label>Segundo Nombre</label>
+              <input type="text" name="secondName" id="secondName"/> 
+                 
+              <label>Primer Apellido</label>
+              <input type="text" name="firstLastname" id="firstLastname"/>
 
+              <label>Segundo Apellido</label>
+              <input type="text" name="secondLastname" id="secondLastname"/>
+
+
+              <label>Nombre Artistico</label>
+              <input type="text" name="stageName" id="stageName"/>
+
+
+              <label>Nombre Artistico</label>
+              <input type="text" name="stageName" id="stageName"/>
+
+              <label>Empresa *</label>   
+               <select name="cboCompany" id="Company"></select>
+
+               <label>Estado *</label>   
+               <select name="cbooptionStateS'" id="'optionStateS'"></select>
+ 
                 <ul class="download-badges">
                     <li><a href="#" title=""  data-aos="fade-up">Registrar</a></li>
                 </ul>
@@ -296,9 +260,54 @@
             </div>
         </div>
 
-    </section> <!-- end download -->    
+    </section> <!-- end company -->
+    
+
+    <!-- download
+    ================================================== -->
+    <section id="Artistas">
+
+        <div class="row">
+            <div class="col-full">
+                <h4  class="intro-header"  data-aos="fade-up">Registrar Artistas</h4>
+               <a label>Tipo documento *</label>   
+               <select name="cboTipoDocumento" id="TipoDocumento"></select>
+               <a label>Nro. Documento</label>
+              <input type="text" name="nroDocument" id="nroDocument"/> 
+              <label>Primer Nombre</label>
+              <input type="text" name="firstName" id="firstName"/> 
+
+              <label>Segundo Nombre</label>
+              <input type="text" name="secondName" id="secondName"/> 
+                 
+              <label>Primer Apellido</label>
+              <input type="text" name="firstLastname" id="firstLastname"/>
+
+              <label>Segundo Apellido</label>
+              <input type="text" name="secondLastname" id="secondLastname"/>
 
 
+              <label>Nombre Artistico</label>
+              <input type="text" name="stageName" id="stageName"/>
+
+
+              <label>Nombre Artistico</label>
+              <input type="text" name="stageName" id="stageName"/>
+
+              <label>Empresa *</label>   
+               <select name="cboCompany" id="Company"></select>
+
+               <label>Estado *</label>   
+               <select name="cbooptionStateS'" id="'optionStateS'"></select>
+ 
+                <ul class="download-badges">
+                    <li><a href="#" title=""  data-aos="fade-up">Registrar</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+    </section> <!-- end artistas -->  
     <!-- footer
     ================================================== -->
     <footer>
